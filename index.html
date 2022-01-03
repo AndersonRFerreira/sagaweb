@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lançar notas - saga WEB</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="img/Logo_unisuam_texto.png" alt="Unisuam" class="logo" />
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Turmas</a></li>
+            <li><a href="#">Lançar Notas</a></li>
+            <li><a href="#">Agenda</a></li>
+            <li><a href="#">Administrativo</a></li>
+          </ul>
+          <i class="fas fa-user-circle"></i>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+    <h3> Home > Lançar Notas</h3>
+      <div class="filtros">
+        <select name="Cursos" id="curso">
+          <option value="select"> Selecione o Curso </option>
+          <option value="Logica de Programacao">Análise de Sistemas</option>
+          <option value="Sistemas para internet">Sistemas para internet</option>
+          <option value="Projetos Mobile">Ciências da Computação</option>
+        </select>
+        <select name="Disciplinas" id="disciplina">
+          <option value="select">Selecione a Disciplina</option>
+          <option value="Logica de Programacao">Lógica de Programação</option>
+          <option value="Design Web">Design Web</option>
+          <option value="Projetos Mobile">Projetos Molibe</option>
+          <option value="banco de Dados">Banco de Dados</option>
+      </select>
+      </div>
+    </div>
+    <section class="container">
+      <div class="card">
+      <table>
+        <tr>
+          <th>Aluno</th>
+          <th>Matrícula</th>
+          <th>Disciplina</th>
+          <th>AV1</th>
+          <th>AV2</th>
+          <th>AV3</th>
+          <th>AVF</th>
+        </tr>
+        <tr>
+        <td>Jõao Carreiro</td>
+        <td>01234</td>
+        <td>Lógica de Programação</td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"><td>
+        <td><input type="button" class="btn-alterar"value="Alterar"></td>
+        <td><input type="button" class="btn-salvar" value="Salvar"></td>
+        </tr>
+        <tr>
+          <td>Clara Castro</td>
+          <td>56789</td>
+          <td>Lógica de Programação</td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"><td>
+        <td><input type="button" class="btn-alterar" value="Alterar"></td>
+        <td><input type="button" class="btn-salvar" value="Salvar"></td>
+        </tr>
+          <tr>
+          <td>Thiago pereira</td>
+          <td>10111</td>
+          <td>Lógica de Programação</td>
+            <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"><td>
+        <td><input type="button" class="btn-alterar" value="Alterar"></td>
+        <td><input type="button" class="btn-salvar" value="Salvar"></td>
+        </tr>
+        <tr>
+          <td>Heloísa Borba</td>
+          <td>12134</td>
+          <td>Lógica de Programação</td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"><td>
+          <td><input type="button" class="btn-alterar" value="Alterar"></td>
+          <td><input type="button" class="btn-salvar" value="Salvar"></td>
+        </tr>
+          <tr>
+          <td>Aline Pereira</td>
+          <td>15161</td>
+          <td>Lógica de Programação</td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"><td>
+          <td><input type="button" class="btn-alterar" value="Alterar"></td>
+          <td><input type="button" class="btn-salvar" value="Salvar"></td>
+        </tr>
+          <tr>
+          <td>Daiane Silva</td>
+          <td>18192</td>
+          <td>Lógica de Programação</td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"><td>
+          <td><input type="button" class="btn-alterar"value="Alterar"></td>
+          <td><input type="button" class="btn-salvar" value="Salvar"></td>
+      </tr>
+      <tr>
+          <td>Pedro Soares</td>
+          <td>21222</td>
+          <td>Lógica de Programação</td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"><td>
+          <td><input type="button" class="btn-alterar" value="Alterar"></td>
+          <td><input type="button" class="btn-salvar" value="Salvar"></td>
+      </tr>
+      <tr>
+        <td>Mariana Medeiros</td>
+        <td>24252</td>
+        <td>Lógica de Programação</td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"><td>
+        <td><input type="button" class="btn-alterar"value="Alterar"></td>
+        <td><input type="button"class="btn-salvar" value="Salvar"></td>
+      </tr>
+          <tr>
+          <td>Matheus Almeida</td>
+          <td>27282</td>
+          <td>Lógica de Programação</td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"><td>
+          <td><input type="button" class="btn-alterar"value="Alterar"></td>
+          <td><input type="button" class="btn-salvar" value="Salvar"></td>
+      </tr>
+          <tr>
+          <td>Sabrina Flores</td>
+          <td>30313</td>
+          <td>Lógica de Programação</td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+          <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"><td>
+          <td><input type="button" class="btn-alterar"value="Alterar"></td>
+          <td><input type="button" class="btn-salvar" value="Salvar"></td>
+      </tr>
+      </tr>
+          <tr>
+        <td>Júlio Cardoso</td>
+        <td>33343</td>
+        <td>Lógica de Programação</td>
+            <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"><td>
+        <td><input type="button" class="btn-alterar"value="Alterar"></td>
+        <td><input type="button" class="btn-salvar" value="Salvar"></td>
+    </tr>
+      </tr>
+          <tr>
+        <td>Vanessa Gomes</td>
+        <td>36373</td>
+        <td>Lógica de Programação</td>
+            <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"><td>
+        <td><input type="button" class="btn-alterar" value="Alterar"></td>
+        <td><input type="button" class="btn-salvar" value="Salvar"></td>
+    </tr>
+    </tr>
+          <tr>
+        <td>Bryan Araújo</td>
+        <td>39404</td>
+        <td>Lógica de Programação</td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"></td>
+        <td><input type="number" id="nota"name="nota"required maxlength="8" size="10"><td>
+        <td><input type="button" class="btn-alterar" value="Alterar"></td>
+        <td><input type="button" class="btn-salvar" value="Salvar"></td>
+    </tr>
+   </table>
+   </div>
+    </section>
+  </body>
+</html>
